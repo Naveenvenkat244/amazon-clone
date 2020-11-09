@@ -5,7 +5,10 @@
   margin-right: auto;
   max-width: 1500px;
 }
-
+.home__row1 {
+  color: black;
+  background-color: black;
+}
 .home__row {
   display: flex;
   z-index: 1;

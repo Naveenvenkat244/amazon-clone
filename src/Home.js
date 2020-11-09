@@ -8,24 +8,33 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://2.bp.blogspot.com/-r3IhqBL5Oo8/W3-bq0GlWSI/AAAAAAAAAkw/JV1e1fopyD8_KFDdxD5eaJ82ilTbOgbqwCLcBGAs/s1600/happy-diwali-animated-gif-218-images.gif"
           alt=""
         />
+        <div className="home__row">
+          <Product
+            id="12321341"
+            title="Fire works (shots )"
+            price={11.96}
+            rating={5}
+            image="https://huronshoresalpena.files.wordpress.com/2019/01/img_2380.gif"
+          />
+        </div>
 
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            title="Flower candle"
             price={11.96}
             rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            image="https://thumbs.gfycat.com/AmusingSaneFugu-size_restricted.gif"
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Men traditional wear kurthas"
+            price={29.9}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://m.media-amazon.com/images/G/31/img2020/fashion/MA2020/Diwali/Phase4/SBC/ethnic/up/1._CB416286673_.jpg"
           />
         </div>
 
